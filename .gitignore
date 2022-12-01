@@ -52,10 +52,11 @@ coverage.xml
 # Sphinx documentation
 docs/_build/
 
-contexts/OSMesa.Darwin.x86_64.zip
-contexts/OSMesa/
-contexts/_constants.py
-contexts/_functions.pyx
-contexts/ctx_mac.c
+opendr/contexts/__MACOSX/
+opendr/contexts/OSMesa.Darwin.x86_64.zip
+opendr/contexts/OSMesa/
+opendr/contexts/_constants.py
+# opendr/contexts/_functions.pyx
+opendr/contexts/ctx_mac.c
 contexts/ctx_mesa.c
-venv
+.venv/
