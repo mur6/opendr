@@ -13,9 +13,10 @@ See LICENCE.txt for licensing information.
 #else
 #ifdef __APPLE__
 #include <OpenGL/gl.h>
+#include <OpenGL/gl3.h>
 #include <OpenGL/glu.h>
 #include <OpenGL/OpenGL.h>
 #include <OpenGL/CGLTypes.h>
+#include <OpenGL/glext.h>
 #endif
 #endif
-
